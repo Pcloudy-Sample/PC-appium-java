@@ -3,6 +3,12 @@
 [![pCloudy](https://img.shields.io/badge/Made%20by-pCloudy-1a73e8?style=for-the-badge)](https://www.pcloudy.com)
 [![Appium Java Client version](https://img.shields.io/maven-central/v/io.appium/java-client.svg?style=for-the-badge&label=Appium%20Java%20Client)](https://mvnrepository.com/artifact/io.appium/java-client)
 
+Run Java Appium Tests on pCloudy.
+
+[www.pcloudy.com](https://www.pcloudy.com)
+
+**Topics:** `java` `testing-tools` `appium` `ios-automation` `android-automation` `mobile-app-testing` `appium-java` `app-automation`
+
 ## About pCloudy
 
 [pCloudy](https://www.pcloudy.com) is a mobile app testing platform that gives you single-click access to real Android and iOS devices directly from your browser. Use these real devices to perform manual and automated testing for your app, and integrate the platform with your CI pipeline for continuous testing across multiple real devices with every build.
