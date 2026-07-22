@@ -3,11 +3,6 @@
 [![pCloudy](https://img.shields.io/badge/Made%20by-pCloudy-1a73e8?style=for-the-badge)](https://www.pcloudy.com)
 [![Appium Java Client version](https://img.shields.io/maven-central/v/io.appium/java-client.svg?style=for-the-badge&label=Appium%20Java%20Client)](https://mvnrepository.com/artifact/io.appium/java-client)
 
-Run Java Appium Tests on pCloudy.
-
-[www.pcloudy.com](https://www.pcloudy.com)
-
-**Topics:** `java` `testing-tools` `appium` `ios-automation` `android-automation` `mobile-app-testing` `appium-java` `app-automation`
 
 ## Getting Started
 
