@@ -46,8 +46,8 @@ public class IOSRunner {
 			capabilities.setCapability("appium:pCloudy_ApplicationName", "pCloudy_Appium_Demo.ipa");
 
 			HashMap<String, Object> pcloudyOptions = new HashMap<String, Object>();
-			pcloudyOptions.put("pCloudy_Username", "anjali.y@opkey.com");
-			pcloudyOptions.put("pCloudy_ApiKey", "r2s7km88f328xrzqz58rtk5c");
+			pcloudyOptions.put("pCloudy_Username", "Username");
+			pcloudyOptions.put("pCloudy_ApiKey", "apikey");
 			pcloudyOptions.put("pCloudy_DeviceFullName", "APPLE_iPhone11ProMax_iOS_15.0.0_b99a8");
 			pcloudyOptions.put("pCloudy_WildNet", false);
 			pcloudyOptions.put("pCloudy_EnableVideo", false);
