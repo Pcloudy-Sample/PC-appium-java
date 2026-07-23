@@ -42,13 +42,13 @@ public class IOSRunner {
 			capabilities.setCapability("appium:platformName", "iOS");
 			capabilities.setCapability("appium:acceptAlerts", true);
 			capabilities.setCapability("appium:automationName", "XCUITest");
-			capabilities.setCapability("appium:bundleId", "com.pcloudy.appiumdemo");
+			capabilities.setCapability("appium:bundleId", "com.pcloudy.TestmunkDemo");
 			capabilities.setCapability("appium:pCloudy_ApplicationName", "pCloudy_Appium_Demo.ipa");
 
 			HashMap<String, Object> pcloudyOptions = new HashMap<String, Object>();
 			pcloudyOptions.put("pCloudy_Username", "anjali.y@opkey.com");
 			pcloudyOptions.put("pCloudy_ApiKey", "r2s7km88f328xrzqz58rtk5c");
-			pcloudyOptions.put("pCloudy_DeviceFullName", "APPLE_iPhone15ProMax_iOS_18.6.2_92d62");
+			pcloudyOptions.put("pCloudy_DeviceFullName", "APPLE_iPhone11ProMax_iOS_15.0.0_b99a8");
 			pcloudyOptions.put("pCloudy_WildNet", false);
 			pcloudyOptions.put("pCloudy_EnableVideo", false);
 			pcloudyOptions.put("pCloudy_EnablePerformanceData", false);
