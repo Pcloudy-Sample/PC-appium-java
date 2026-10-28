@@ -1,6 +1,6 @@
 <div align="center">
 
-# Run Appium Tests with Java on pCloudy
+# Run Appium Tests with Java on Pcloudy
 
 [![pCloudy](https://img.shields.io/badge/Made%20by-pCloudy-1a73e8?style=for-the-badge)](https://www.pcloudy.com)
 [![Appium Java Client version](https://img.shields.io/maven-central/v/io.appium/java-client.svg?style=for-the-badge&label=Appium%20Java%20Client)](https://mvnrepository.com/artifact/io.appium/java-client)
@@ -10,18 +10,18 @@
 
 ## Getting Started
 
-[pCloudy](https://www.pcloudy.com) is a mobile app testing platform that gives you single-click access to real Android and iOS devices directly from your browser. Use these real devices to perform manual and automated testing for your app, and integrate the platform with your CI pipeline for continuous testing across multiple real devices with every build.
+[Pcloudy](https://www.pcloudy.com) is a mobile app testing platform that gives you single-click access to real Android and iOS devices directly from your browser. Use these real devices to perform manual and automated testing for your app, and integrate the platform with your CI pipeline for continuous testing across multiple real devices with every build.
 
-pCloudy is fully integrated with Appium, letting you run your existing Appium test scripts against real devices on the pCloudy cloud with minimal changes.
+Pcloudy is fully integrated with Appium, letting you run your existing Appium test scripts against real devices on the Pcloudy cloud with minimal changes.
 
-This project is a plain Java + Maven Appium sample (no test framework) showing how to run Java Appium tests on the pCloudy Real Device Cloud.
+This project is a plain Java + Maven Appium sample (no test framework) showing how to run Java Appium tests on the Pcloudy Real Device Cloud.
 
 ## Prerequisites
 
 - Java 8 or higher
 - Maven
-- A [pCloudy account](https://www.pcloudy.com) with your registered email ID and API key (find your API key under **Settings > API Key** on the pCloudy dashboard)
-- Your app (`.apk`/`.ipa`) uploaded to your pCloudy Cloud Drive
+- A [Pcloudy account](https://www.pcloudy.com) with your registered email ID and API key (find your API key under **Settings > API Key** on the pCloudy dashboard)
+- Your app (`.apk`/`.ipa`) uploaded to your Pcloudy Cloud Drive
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ mvn clean install
 
 ### Configure your credentials and app
 
-`AndroidRunner.java` and `IOSRunner.java` read your pCloudy credentials from environment variables (falling back to placeholder text if unset):
+`AndroidRunner.java` and `IOSRunner.java` read your Pcloudy credentials from environment variables (falling back to placeholder text if unset):
 
 **macOS / Linux:**
 
@@ -70,7 +70,7 @@ mvn test -P ios
 
 Alternatively, open [`AndroidRunner.java`](src/com/pcloudy/appium/AndroidRunner.java) / [`IOSRunner.java`](src/com/pcloudy/appium/IOSRunner.java) and hardcode the values directly.
 
-The `pCloudy_ApplicationName` capability must match the name of the app already uploaded to your pCloudy Cloud Drive. This repo bundles a sample Android app, `pCloudyAppiumDemo.apk`, for reference — `IOSRunner.java` expects you to upload your own `.ipa` and update `pCloudy_ApplicationName`/`bundleId` accordingly, since no iOS sample app ships with this repo.
+The `pCloudy_ApplicationName` capability must match the name of the app already uploaded to your Pcloudy Cloud Drive. This repo bundles a sample Android app, `pCloudyAppiumDemo.apk`, for reference — `IOSRunner.java` expects you to upload your own `.ipa` and update `pCloudy_ApplicationName`/`bundleId` accordingly, since no iOS sample app ships with this repo.
 
 ### Capabilities used in this sample
 
@@ -89,13 +89,13 @@ The `pCloudy_ApplicationName` capability must match the name of the app already 
 
 > **Note:** `pCloudy_DeviceFullName` alone is enough to book a specific device. When it's set, `pCloudy_DeviceManafacturer` and `pCloudy_DeviceVersion` aren't required — you can comment them out, as done in `AndroidRunner.java`. Use `pCloudy_DeviceManafacturer`/`pCloudy_DeviceVersion` instead only if you want pCloudy to pick any available device matching that manufacturer/version rather than one specific device.
 
-The driver connects to the pCloudy Appium hub at:
+The driver connects to the Pcloudy Appium hub at:
 
 ```
 https://device.pcloudy.com/appiumcloud/wd/hub
 ```
 
-Test results are visible on your [pCloudy dashboard](https://www.pcloudy.com) once the session starts.
+Test results are visible on your [Pcloudy dashboard](https://www.pcloudy.com) once the session starts.
 
 ### Screenshots
 
@@ -114,14 +114,14 @@ PC-appium-java/
 
 ## API Documentation
 
-For the full pCloudy REST API reference (device booking, app upload, reports, and more), see:
+For the full Pcloudy REST API reference (device booking, app upload, reports, and more), see:
 
 - [pCloudy API Documentation](https://content.pcloudy.com/apidocs/index.html)
 
 ## Learn More
 
-- [pCloudy Website](https://www.pcloudy.com)
-- [Appium Integration on pCloudy](https://www.pcloudy.com/appium-integration-architecture-redefined-appium-runs-become-simpler-with-pcloudy/)
+- [Pcloudy Website](https://www.pcloudy.com)
+- [Appium Integration on Pcloudy](https://www.pcloudy.com/appium-integration-architecture-redefined-appium-runs-become-simpler-with-pcloudy/)
 
 ## Contributions
 
