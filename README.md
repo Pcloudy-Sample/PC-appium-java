@@ -2,7 +2,7 @@
 
 # Run Appium Tests with Java on Pcloudy
 
-[![pCloudy](https://img.shields.io/badge/Made%20by-pCloudy-1a73e8?style=for-the-badge)](https://www.pcloudy.com)
+[![Pcloudy](https://img.shields.io/badge/Made%20by-Pcloudy-1a73e8?style=for-the-badge)](https://www.pcloudy.com)
 [![Appium Java Client version](https://img.shields.io/maven-central/v/io.appium/java-client.svg?style=for-the-badge&label=Appium%20Java%20Client)](https://mvnrepository.com/artifact/io.appium/java-client)
 
 </div>
@@ -20,7 +20,7 @@ This project is a plain Java + Maven Appium sample (no test framework) showing h
 
 - Java 8 or higher
 - Maven
-- A [Pcloudy account](https://www.pcloudy.com) with your registered email ID and API key (find your API key under **Settings > API Key** on the pCloudy dashboard)
+- A [Pcloudy account](https://www.pcloudy.com) with your registered email ID and API key (find your API key under **Settings > API Key** on the Pcloudy dashboard)
 - Your app (`.apk`/`.ipa`) uploaded to your Pcloudy Cloud Drive
 
 ## Getting Started
@@ -76,9 +76,9 @@ The `pCloudy_ApplicationName` capability must match the name of the app already 
 
 | Capability | Description |
 |---|---|
-| `pCloudy_Username` | Your pCloudy account email ID |
-| `pCloudy_ApiKey` | Your pCloudy API key |
-| `pCloudy_ApplicationName` | Name of the app already uploaded to your pCloudy Cloud Drive |
+| `pCloudy_Username` | Your Pcloudy account email ID |
+| `pCloudy_ApiKey` | Your Pcloudy API key |
+| `pCloudy_ApplicationName` | Name of the app already uploaded to your Pcloudy Cloud Drive |
 | `pCloudy_DurationInMinutes` | Booking duration for the device session |
 | `pCloudy_DeviceManafacturer` | (Android) Device manufacturer to run the test on, e.g. `Samsung` |
 | `pCloudy_DeviceVersion` | (Android) OS version of the target device |
@@ -87,7 +87,7 @@ The `pCloudy_ApplicationName` capability must match the name of the app already 
 | `appPackage` / `appActivity` | (Android) Package and launch activity of the app under test |
 | `bundleId` | (iOS) Bundle identifier of the app under test |
 
-> **Note:** `pCloudy_DeviceFullName` alone is enough to book a specific device. When it's set, `pCloudy_DeviceManafacturer` and `pCloudy_DeviceVersion` aren't required — you can comment them out, as done in `AndroidRunner.java`. Use `pCloudy_DeviceManafacturer`/`pCloudy_DeviceVersion` instead only if you want pCloudy to pick any available device matching that manufacturer/version rather than one specific device.
+> **Note:** `pCloudy_DeviceFullName` alone is enough to book a specific device. When it's set, `pCloudy_DeviceManafacturer` and `pCloudy_DeviceVersion` aren't required — you can comment them out, as done in `AndroidRunner.java`. Use `pCloudy_DeviceManafacturer`/`pCloudy_DeviceVersion` instead only if you want Pcloudy to pick any available device matching that manufacturer/version rather than one specific device.
 
 The driver connects to the Pcloudy Appium hub at:
 
@@ -116,7 +116,7 @@ PC-appium-java/
 
 For the full Pcloudy REST API reference (device booking, app upload, reports, and more), see:
 
-- [pCloudy API Documentation](https://content.pcloudy.com/apidocs/index.html)
+- [Pcloudy API Documentation](https://content.pcloudy.com/apidocs/index.html)
 
 ## Learn More
 
